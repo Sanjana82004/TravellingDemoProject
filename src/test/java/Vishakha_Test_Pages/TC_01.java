@@ -1,7 +1,8 @@
-package Sorry_Guys_But_Vishakha_Test_Pages;
+package Vishakha_Test_Pages;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import Sorry_Guys_But_Vishakha_Page_Object_Package.POM_TC_01;
+
+import Vishakha_Page_Object_Package.POM_TC_01;
 
 
 public class TC_01 extends Base_Test{
@@ -22,7 +23,6 @@ public class TC_01 extends Base_Test{
 
         
         String logoText = hp.getLogoText();
-        // Check kar rahe hain ki logo khali toh nahi hai
         Assert.assertFalse(logoText.isEmpty(), "Logo text empty aa raha hai!");
 	}
 

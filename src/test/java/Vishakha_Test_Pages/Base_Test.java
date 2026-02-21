@@ -1,4 +1,4 @@
-package Sorry_Guys_But_Vishakha_Test_Pages;
+package Vishakha_Test_Pages;
 
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;

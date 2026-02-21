@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sorry_Guys_But_Vishakha_Test_Pages.TC_01">
+      <class name="Vishakha_Test_Pages.TC_02">
         <methods>
-          <include name="validateHomePage"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="verifyPackagesPageNavigation"/>
         </methods>
-      </class> <!-- Sorry_Guys_But_Vishakha_Test_Pages.TC_01 -->
+      </class> <!-- Vishakha_Test_Pages.TC_02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
