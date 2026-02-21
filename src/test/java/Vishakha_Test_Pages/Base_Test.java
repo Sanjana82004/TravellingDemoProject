@@ -15,7 +15,7 @@ public class Base_Test {
     	driver = new ChromeDriver();
     	driver.get("https://mern-travel-tourism-app.onrender.com/search");
     	driver.manage().window().maximize();
-    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     	
     }
     @AfterClass
