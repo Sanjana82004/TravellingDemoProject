@@ -13,7 +13,7 @@ public class Base_Test {
     @BeforeClass
     public void setup() {
     	driver = new ChromeDriver();
-    	driver.get("https://mern-travel-tourism-app.onrender.com/search");
+    	driver.get("https://mern-travel-tourism-app.onrender.com");
     	driver.manage().window().maximize();
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     	
