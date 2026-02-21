@@ -17,9 +17,6 @@ public class TC_02 extends Base_Test{
 		String expectedHeader="Package Results:";
 		String actualHeader=hp.getResultsPageHeaderText();
 		
-		System.out.println(expectedHeader);
-		System.out.println(actualHeader);
-		
 		Assert.assertEquals(expectedHeader, actualHeader,"package link did not worked properly Header is not matching");
 		
 	}

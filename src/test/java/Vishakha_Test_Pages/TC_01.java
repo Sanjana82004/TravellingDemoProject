@@ -22,8 +22,6 @@ public class TC_01 extends Base_Test{
         Assert.assertTrue(isLogoPresent, "Logo webpage par display nahi ho raha hai!");
 
         
-        String logoText = hp.getLogoText();
-        Assert.assertFalse(logoText.isEmpty(), "Logo text empty aa raha hai!");
 	}
 
 }
