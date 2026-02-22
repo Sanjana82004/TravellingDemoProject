@@ -19,7 +19,7 @@ public class BaseClass {
     @BeforeClass
     public void setup() {
     	driver = new ChromeDriver();
-    	driver.get("https://mern-travel-tourism-app.onrender.com/search");
+    	driver.get("https://mern-travel-tourism-app.onrender.com/login");
     	driver.manage().window().maximize();
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     	
@@ -30,7 +30,7 @@ public class BaseClass {
     }
     
     
-    
+    /*
     public String captureScreen(String tname) throws IOException{
     	String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date())	;
     	
@@ -43,7 +43,7 @@ public class BaseClass {
     	 //sourceFile.renameTo(targetFile);
     	return targetFilePath;
     	}
-    		
+    		*/
     
     
     
